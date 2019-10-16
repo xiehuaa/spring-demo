@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.zhangsan.com/schema/user"
+        xmlns="http://www.zhangsan.com/schema/user"
+        elementFormDefault="qualified">
+
+    <xsd:element name="user">
+        <xsd:complexType>
+            <xsd:attribute name="id" type="xsd:string"/>
+            <xsd:attribute name="userName" type="xsd:string" default="admin"/>
+            <xsd:attribute name="email" type="xsd:string" default="admin@163.com"/>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>
